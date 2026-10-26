@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+
+# Personal workspace files kept locally, not part of this package
+xiaohongshu_extract/
+应试智能（下）_文字整理.txt
+应试智能_文字整理.txt

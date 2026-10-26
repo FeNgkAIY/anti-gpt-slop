@@ -1,0 +1,30 @@
+{
+  "name": "anti-gpt-slop",
+  "version": "0.1.0",
+  "description": "Pi extension that audits GPT-model responses against a built-in anti-slop ruleset (hedging, hollow apologies, unsupported claims, meta-commentary) and requests a bounded self-correction when it finds a grounded violation.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "gpt",
+    "audit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeNgkAIY/anti-gpt-slop.git"
+  },
+  "files": [
+    "extensions/anti-gpt-slop.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/anti-gpt-slop.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
